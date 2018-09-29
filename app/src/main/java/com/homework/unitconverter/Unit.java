@@ -17,7 +17,10 @@ public enum Unit {
     QUART,
     GALLON,
     MILLILITER,
-    LITER;
+    LITER,
+    FAHRENHEIT,
+    CELSIUS,
+    KELVIN;
 
     public static Unit verify(String inputUnit){
         if(inputUnit != null){

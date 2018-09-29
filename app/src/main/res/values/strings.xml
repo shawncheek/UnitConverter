@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Unit Converter</string>
+    <string name="convert_units">Convert Units</string>
+    <string name="convert_length">Convert Length</string>
+    <string name="convert_volume">Convert Volume</string>
+    <string name="convert_temperature">Convert Temperature</string>
+    <string name="test_your_knowledge">Test Your Knowledge!</string>
+    <string name="play_quiz">Play Quiz</string>
 </resources>
