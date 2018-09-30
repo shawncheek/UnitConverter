@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 displayHelp();
             }
         });
+
     }
 
     public void openConvertLength(){

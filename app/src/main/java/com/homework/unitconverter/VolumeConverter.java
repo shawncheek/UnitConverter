@@ -1,9 +1,11 @@
 package com.homework.unitconverter;
 
+import java.util.Locale;
+
 public class VolumeConverter {
     private final double multiplier;
 
-    public VolumeConverter(Unit fromUnit, Unit toUnit) {
+    VolumeConverter(Unit fromUnit, Unit toUnit) {
         double value = 0;
         switch (fromUnit) {
             case OUNCE:
@@ -152,4 +154,5 @@ public class VolumeConverter {
     public double convert(double input){
         return input * multiplier;
     }
+    String getMultiplier() { return String.format(Locale.ENGLISH, "%.2f", multiplier); }
 }

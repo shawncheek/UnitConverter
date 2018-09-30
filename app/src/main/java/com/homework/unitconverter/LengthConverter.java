@@ -1,9 +1,11 @@
 package com.homework.unitconverter;
 
+import java.util.Locale;
+
 public class LengthConverter {
     private final double multiplier;
 
-    public LengthConverter(Unit fromUnit, Unit toUnit){
+    LengthConverter(Unit fromUnit, Unit toUnit){
         double value = 0;
         switch(fromUnit){
             case MILLIMETER:
@@ -247,4 +249,5 @@ public class LengthConverter {
     public double convert(double input){
         return input * multiplier;
     }
+    String getMultiplier() { return String.format(Locale.ENGLISH, "%.2f", multiplier); }
 }

@@ -1,5 +1,7 @@
 package com.homework.unitconverter;
 
+import java.util.Locale;
+
 public class TempConverter {
     private final double multiplier;
     private final double addition1;
@@ -53,4 +55,5 @@ public class TempConverter {
     public double convert(double input){
         return (multiplier * (input + addition1)) + addition2;
     }
+    String getMultiplier() { return String.format(Locale.ENGLISH, "%.2f", multiplier); }
 }
