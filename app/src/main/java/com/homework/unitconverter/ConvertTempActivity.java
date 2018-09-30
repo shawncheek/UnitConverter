@@ -1,6 +1,7 @@
 package com.homework.unitconverter;
 
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,6 +24,9 @@ public class ConvertTempActivity extends AppCompatActivity {
         setContentView(R.layout.activity_convert_temp);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Drawable background = getResources().getDrawable(R.drawable.thermometers);
+        background.setAlpha(50);
 
         final String help = "Select units to convert from and to from the drop-down menus " +
                 "and enter an temperature value to convert.";

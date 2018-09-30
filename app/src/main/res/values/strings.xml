@@ -11,6 +11,10 @@
     <string name="convert">Convert</string>
     <string name="you_shouldn_t_see_this">You shouldn\'t see this.</string>
     <string name="value">Value</string>
+    <string name="ruler">ruler</string>
+    <string name="measuring_cup">measuring cup</string>
+    <string name="thermometer">thermometer</string>
+    <string name="scale">scale</string>
     <string-array name="tempUnits">
         <item>Fahrenheit</item>
         <item>Celsius</item>
