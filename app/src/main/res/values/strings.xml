@@ -6,4 +6,14 @@
     <string name="convert_temperature">Convert Temperature</string>
     <string name="test_your_knowledge">Test Your Knowledge!</string>
     <string name="play_quiz">Play Quiz</string>
+    <string name="convert_from">Convert From</string>
+    <string name="convert_to">Convert To</string>
+    <string name="convert">Convert</string>
+    <string name="you_shouldn_t_see_this">You shouldn\'t see this.</string>
+    <string name="value">Value</string>
+    <string-array name="tempUnits">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+        <item>Kelvin</item>
+    </string-array>
 </resources>
