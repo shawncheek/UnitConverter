@@ -16,10 +16,10 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tempFromLabel" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tempFromLabel"
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tempToLabel"
         android:layout_width="wrap_content"
         android:layout_height="23dp"
         android:layout_marginStart="8dp"
@@ -44,7 +44,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/tempFromLabel"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
@@ -58,10 +58,10 @@
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/spinnerTempFrom"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/tempToLabel" />
 
     <View
-        android:id="@+id/divider"
+        android:id="@+id/tempDivider"
         android:layout_width="0dp"
         android:layout_height="12dp"
         android:layout_marginStart="8dp"
@@ -90,7 +90,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toEndOf="@+id/tempInput"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/tempValueLabel" />
 
     <TextView
         android:id="@+id/textTempConvertResult"
@@ -109,7 +109,7 @@
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toBottomOf="@+id/tempDivider" />
 
     <EditText
         android:id="@+id/tempInput"
@@ -121,10 +121,10 @@
         android:ems="10"
         android:inputType="numberDecimal|numberSigned"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/tempValueLabel" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tempValueLabel"
         android:layout_width="48dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

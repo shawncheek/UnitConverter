@@ -52,7 +52,6 @@ public class ConvertTempActivity extends AppCompatActivity {
         convertTemp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 convert(v);
             }
         });

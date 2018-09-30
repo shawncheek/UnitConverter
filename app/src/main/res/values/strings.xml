@@ -16,4 +16,24 @@
         <item>Celsius</item>
         <item>Kelvin</item>
     </string-array>
+    <string-array name="lengthUnits">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Decimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+    <string-array name="volumeUnits">
+        <item>Milliliter</item>
+        <item>Liter</item>
+        <item>Ounce</item>
+        <item>Cup</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+    </string-array>
 </resources>
