@@ -28,8 +28,7 @@ public class ConvertTempActivity extends AppCompatActivity {
         Drawable background = getResources().getDrawable(R.drawable.thermometers);
         background.setAlpha(50);
 
-        final String help = "Select units to convert from and to from the drop-down menus " +
-                "and enter an temperature value to convert.";
+        final String help = "Select units to convert from and to and enter a value.";
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

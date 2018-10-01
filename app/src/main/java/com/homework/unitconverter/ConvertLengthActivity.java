@@ -32,7 +32,7 @@ public class ConvertLengthActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Select units to convert from and to and enter a value.", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
